@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import './dist/scss/variables.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: belanosima;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    border-radius: 5px;
+}
+
+body{
+    background: $primary-background-color;
+}
+
+button {
+    cursor: pointer;
+}
+
+textarea:focus, input:focus, button{
+    outline: none;
+}
+
+.container{
+    width: 600px;
+    margin: 50px auto;
+}
